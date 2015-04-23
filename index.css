@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+}
+header
+{
+    text-align: center;
+    background-image: url("img/topbg.jpg");
+}
+header img
+{
+
+    margin: 3px 0px 3px 0px;
+}
+article
+{
+    background: rgba(248,80,50,1);
+    background: -moz-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(255,155,0,1) 43%, rgba(243,210,68,1) 98%, rgba(243,210,68,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(43%, rgba(255,155,0,1)), color-stop(98%, rgba(243,210,68,1)), color-stop(100%, rgba(243,210,68,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(255,155,0,1) 43%, rgba(243,210,68,1) 98%, rgba(243,210,68,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(255,155,0,1) 43%, rgba(243,210,68,1) 98%, rgba(243,210,68,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(248,80,50,1) 0%, rgba(255,155,0,1) 43%, rgba(243,210,68,1) 98%, rgba(243,210,68,1) 100%);
+    background: linear-gradient(135deg, rgba(248,80,50,1) 0%, rgba(255,155,0,1) 43%, rgba(243,210,68,1) 98%, rgba(243,210,68,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#f3d244', GradientType=1 );
+    padding: 3em;
+    margin:0px;
+}
+
+.telephone
+{
+    font-size: 4em;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 0.8em;
+    margin:0px;
+}
+
+#kvadrat
+{
+    width: 100%;
+    height:300px;
+    border-spacing: 0px;
+    font-size: 2em;
+}
+#kvadrat td{
+    padding: 0.5em;
+}
+#kvadrat td.top, #kvadrat td.bottom
+{
+    border: 2px solid #333333;
+    height:2em;
+    text-align: center;
+}
+#kvadrat td.left, #kvadrat td.right
+{
+    border-left: 2px solid #333333;
+    border-right: 2px solid #333333;
+    width:2em;
+}
+.rotate-left
+{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.rotate-right
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#kvadrat .middle
+{
+    text-align: center;
+}
+.price
+{
+    font-size: 3em;
+}
+.green
+{
+    color: darkgreen;
+    font-width: bold;
+}
+
+footer
+{
+    font-size: 2em;
+    text-align: center;
+    background-image: url("img/topbg.jpg");
+}
